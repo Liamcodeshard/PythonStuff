@@ -1,0 +1,12 @@
+Title: Bill Splitter App
+
+Description:
+The App will take the bill, the amount of flatmates and the days they stayed at home.
+It will then work out what a flatmate has to pay for the period that they were actually in the house for.
+It will also generate a PDF report with 1. The flatmates 2. The period of time 3. The amount each person has to pay.
+
+Objects:
+Bill: amount - period
+Flatmate: name - daysInHouse - amountToPay(bill)
+PDF report: filename - save/generate/create(flatmate1.name, flatmate2.name, flatmate1.pays(), flatmate2.pays(), billInstance.period, billInstance.amount)
+Amount to pay
